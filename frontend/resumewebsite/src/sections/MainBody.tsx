@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function MainBody() {
   return (
-    <nav className="flex justify-left items-center py-0 px-0 shadow-md bg-white">
+    <nav className="flex justify-left items-start min-h-screen shadow-md bg-[#3D3327]">
       <Link href="/" className="font-bold text-lg text-black">Lexon.dev</Link>
       <div className="space-x-0 font-bold text-black">
         <Link href="/about">About</Link>
