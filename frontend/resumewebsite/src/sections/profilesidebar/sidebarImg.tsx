@@ -9,7 +9,7 @@ export default function SidebarImg() {
           alt="Lexon.dev Logo"
           width={200} // adjust size
           height={50}
-          className="rounded-full object-cover"
+          className="my-4 rounded-full object-cover"
           />
     </>
   );

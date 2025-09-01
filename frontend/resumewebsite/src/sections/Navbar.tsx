@@ -17,7 +17,7 @@ export default function Navbar() {
 
 
         {/* Sidebar Line Divider */}
-      <aside className="py-0.5 bg-[#837F5F]">
+      <aside className="h-[2px] bg-[#837F5F]">
       </aside>
     </div>
   );

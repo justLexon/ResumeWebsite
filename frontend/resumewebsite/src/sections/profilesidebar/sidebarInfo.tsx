@@ -2,15 +2,13 @@ import SidebarImg from "./sidebarImg";
 
 export default function SidebarInfo() {
   return (
-    <div className="flex justify-center items-center">
-        <nav className=" py-2">
-            {/* Profile Image */}
-              <SidebarImg />
+    <div className="flex flex-col justify-center items-center">
+      {/* Profile Image */}
+        <SidebarImg />
 
-            {/* Name */}
-              <h1 className="flex justify-center">Lexon Schexnider</h1>
+      {/* Name */}
+        <h1 className="flex justify-center text-xl sm:text-1xl md:text-2xl lg:text-2xl">Lexon Schexnider</h1>
 
-        </nav>
     </div>
   );
 }
