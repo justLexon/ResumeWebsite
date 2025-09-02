@@ -7,7 +7,7 @@ export default function SidebarImg() {
           <Image
           src="/Screenshot_20240517_162409_Instagram.jpg" // relative to public/
           alt="Lexon.dev Logo"
-          width={200} // adjust size
+          width={200}
           height={50}
           className="my-4 rounded-full object-cover"
           />

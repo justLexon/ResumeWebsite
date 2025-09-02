@@ -1,4 +1,4 @@
-import MainBody from "@/sections/MainBody";
+import ResumeBody from "@/sections/ResumeBody";
 import ProfileSidebar from "@/sections/ProfileSidebar";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 
         {/* Main content */}
         <main className="flex-1">
-          <MainBody />
+          <ResumeBody />
         </main>
       </div>
   );
