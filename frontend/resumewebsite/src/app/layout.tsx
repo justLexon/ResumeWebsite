@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={styles.styles}>
         <Navbar />
-        <main className="min-h-screen container">{children}</main>
+        <main className="min-h-screen max-w-screen">{children}</main>
       </body>
     </html>
   );

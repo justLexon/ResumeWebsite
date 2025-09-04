@@ -3,7 +3,7 @@ import ProfileSidebar from "@/sections/ProfileSidebar";
 
 export default function Home() {
   return (
-      <div className="flex min-w-screen min-h-screen">
+      <div className="flex max-w-screen min-h-screen">
         {/* Sidebar */}
         <aside className="w-[250px] bg-[#3D3327] flex flex-col">
           <ProfileSidebar />
